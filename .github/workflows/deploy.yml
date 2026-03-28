@@ -22,7 +22,7 @@ jobs:
           script: |
             echo "🚀 Deploy iniciado"
 
-            if [ ! -d "demo-devops-ec2" ]; then
+            if [ ! -d "deploy-ec2" ]; then
               git clone https://github.com/cbugueno-duoc/deploy-ec2.git
             fi
 
